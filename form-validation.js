@@ -11,9 +11,7 @@ else {//Show message that there is an error with the username...
   //Turn the username items red
   document.getElementById("usernameGroup").classList.add("has-error");
 }
-if (true) {
-}
-else {//Show message that there is an error with the password...
+if (passEntered =="password"){//Show message that there is an error with the password...
   document.getElementById("passwordError").innerHTML="Bad password.";
   document.getElementById("passwordError").classList.remove("hidden-message");
   document.getElementById("passwordError").classList.add("shown-message");
